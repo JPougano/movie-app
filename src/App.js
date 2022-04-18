@@ -1,5 +1,6 @@
 import React from "react";
-import Home from "./index";
+import Home from "./home/index";
+
 
 export default function App(){
 
@@ -16,15 +17,18 @@ export default function App(){
         return (
             <Home
                 key={film.id}
-                image={film.backdrop_path}
+                image={film.poster_path}
                 title={film.title}
             />
         )
 
     })
     return(
-        <main className="main--container">
-            {createAllCards}
+        <main>
+            <h1 className="main--title">Movies</h1>
+            <section className="main--container">
+                {createAllCards}
+            </section>
         </main>
     )
 }
