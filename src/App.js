@@ -1,11 +1,11 @@
-import React from "react";
+import React , {useState}from "react";
 import Home from "./home/index";
 
 
 export default function App(){
 
     
-    const [filmData, setFilmData] = React.useState([])
+    const [filmData, setFilmData] = useState([])
 
     React.useEffect(()=>{
         fetch("https://api.themoviedb.org/3/movie/popular?api_key=0d1c1a6d4be12eb98827b466787e5608&language=en-US&page=1")
@@ -17,6 +17,7 @@ export default function App(){
         return (
             <Home
                 key={film.id}
+                id={film.id}
                 image={film.poster_path}
                 title={film.title}
             />

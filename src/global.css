@@ -43,10 +43,11 @@ body{
     text-align: center;
 }
 
-a{
+.card--image{
     transition: all 0.3s;
+    text-decoration: none;
 }
 
-a:hover{
+.card--image:hover{
     transform: scale(1.1);
 }

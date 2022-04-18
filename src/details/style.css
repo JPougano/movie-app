@@ -1,0 +1,37 @@
+.details--container{
+    display: flex;
+    flex-direction: row ;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.details--image{
+    max-width: 350px;
+    border-radius: 1rem;
+}
+
+.details--content--subcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.details--released{
+    color: #9b9292;
+}
+
+.details--btn{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(105, 47, 160);
+    border-radius: 1rem;
+    color: white;
+    border: none;
+}
+
+.details--btn:hover{
+    transform: scale(1.1);
+    transition: all .3s;
+    cursor: pointer;
+}
