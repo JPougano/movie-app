@@ -21,3 +21,16 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+- Images builing:
+    https://image.tmdb.org/t/p/w500/..
+    
+- API key (Auht 3):
+    0d1c1a6d4be12eb98827b466787e5608
+
+- Request example:
+    https://api.themoviedb.org/3/movie/550?api_key=0d1c1a6d4be12eb98827b466787e5608
+
+- API Read Access Token (v4 auth):
+    eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwZDFjMWE2ZDRiZTEyZWI5ODgyN2I0NjY3ODdlNTYwOCIsInN1YiI6IjYyNWNhNDkzYmYwOWQxMDA2NmJlODY1MiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.o5b2BbyV8OJrM9tng6w5BT9HmhOMo221EqqIw2m5UbA
